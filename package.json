@@ -1,0 +1,22 @@
+{
+  "name": "yandex-music-api",
+  "version": "0.0.1",
+  "description": "A Node.js wrapper for Unofficial Yandex.Music API",
+  "main": "lib/yandex-music-api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yandex",
+    "music",
+    "api",
+    "wrapper",
+    "yandex.music"
+  ],
+  "author": "Anton Petrov",
+  "license": "MIT",
+  "dependencies": {
+    "promise": "^6.0.1",
+    "restler": "^3.2.2"
+  }
+}
