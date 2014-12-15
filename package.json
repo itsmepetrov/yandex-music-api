@@ -1,6 +1,6 @@
 {
   "name": "yandex-music-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/itsmepetrov/yandex-music-api",
   "description": "A Node.js wrapper for the Yandex.Music API (Unofficial) http://music.yandex.ru",
   "main": "lib/yandex-music-api.js",
