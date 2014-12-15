@@ -1,7 +1,7 @@
 Yandex Music Api (Unofficial) for Node
 ====
 
-This is a Node.js wrapper for the [Yandex Music Api](http://music.yandex.ru/) that is used in mobile apps (iOS/Android).
+This is a Node.js wrapper for the [Yandex Music](http://music.yandex.ru/) API that is used in mobile apps (iOS/Android).
 
 Installation
 -------
