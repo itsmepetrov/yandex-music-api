@@ -11,7 +11,10 @@ Installation
 Usage
 -------
 ```js
+var YandexMusicApi = require('yandex-music-api');
+
 var api = new YandexMusicApi();
+
 api.init({username: 'example@yandex.ru', password: 'password'}).then(function() {
 	// place code here
 })
