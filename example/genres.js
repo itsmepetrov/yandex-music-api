@@ -9,7 +9,26 @@ api.init(config.user)
             console.log('Music genres:')
 
             genres.forEach(function(genre) {
-                console.log(genre.titles.en.title + ' (tracks: ' + genre.tracksCount + ')');
+                var genreTitle = 'Unknown';
+                if(genre.titles.en){
+                    genreTitle = genre.titles.en.title;
+                }else if(genre.titles.ru){
+                    genreTitle = genre.titles.ru.title;
+                }
+                console.log(genreTitle + ' (tracks: ' + genre.tracksCount + ')');
+
+                if(genre.subGenres){
+                    genre.subGenres.forEach(function(subGenre){
+                        var genreTitle = 'Unknown';
+                        if(subGenre.titles.en){
+                            genreTitle = subGenre.titles.en.title;
+                        }else if(subGenre.titles.ru){
+                            genreTitle = subGenre.titles.ru.title;
+                        }
+                        console.log('    >' + genreTitle + ' (tracks: ' + subGenre.tracksCount + ')');
+                    })
+                }
+                
             })
         });
     })
