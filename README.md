@@ -6,10 +6,13 @@ This is a Node.js wrapper for the [Yandex.Music](http://music.yandex.ru/) API th
 Installation
 -------
 
-    npm install yandex-music-api
+```sh
+npm install yandex-music-api
+```
 
 Usage
 -------
+
 ```js
 var YandexMusicApi = require('yandex-music-api');
 
@@ -23,14 +26,17 @@ api.init({username: 'example@yandex.ru', password: 'password'}).then(function() 
 This library provides following functions:
 
 #### Users
+
 - getAccountStatus
 - getFeed
 
 #### Music
+
 - getGenres
 - search
 
 #### Playlist
+
 - getUserPlaylists
 - getPlaylist
 - getPlaylists
