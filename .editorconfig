@@ -1,0 +1,6 @@
+root = true
+
+[*]
+indent_type = space
+indent_size = 2
+insert_final_new_line = true
